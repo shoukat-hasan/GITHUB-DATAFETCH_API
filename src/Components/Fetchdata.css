@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    min-width: 400px;
+    background-color: #181823;
+    text-align: center;
+}
+
+.main-card {
+    border-radius: 25px;
+    position: relative;
+    padding: 25px 15px;
+    background-color: #4c65b8;
+    margin: 50px 0;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+.title {
+    color: #fff;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2em;
+    color: #2d3436;
+    margin: 20px 0 30px;
+}
+.user-input{
+    width: 20rem;
+    padding: 10px;
+}
+.search-btn{
+    background-color: #4949ad;
+    color: white;
+    margin-top: 1rem;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.card {
+    border-radius: 25px;
+    position: relative;
+    padding: 25px 15px;
+    background-color: #4c65b8;
+    margin: 50px 0;
+    height: 200px;
+    box-shadow: 0 2px 5px #ccc;
+    text-align: left;
+}
+
+.top {
+    border-radius: 20px 20px 0 0;
+    height: 100px;
+    width: 100%;
+    background-color: #2b5dca;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.user-heading {
+    color: #fff;
+    font-size: larger;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.name {
+    font-size: 3em;
+    color: #2d3436;
+    display: flex;
+    flex: 1;
+    margin: 10% 20px 0;
+}
+
+.card img {
+    margin-top: 25px;
+    margin-left: 230px ;
+    position: absolute;
+}
+
+.circle-img {
+    border-radius: 50%;
+    border: 7px solid #fff;
+    width: 120px;
+    height: 120px;
+    padding-left: px;
+}
+
+.bottom {
+    margin-top: 110px;
+}
+
+.info {
+    color: #ccc;
+    padding-top: 10px;
+    margin: 5px 0;
+}
